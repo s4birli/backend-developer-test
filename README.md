@@ -107,8 +107,20 @@ Once the containers are running, the application will be accessible at `http://l
 |   `-- versions
 |-- alembic.ini
 |-- requirements.txt
+|-- test-requirements.txt
+|-- tests
+|   |-- __init__.py
+|   |-- test_auth.py
+|   |-- test_post.py
 ```
 
+## Running Tests
+
+To run the tests, use the following command:
+
+```sh
+pytest
+```
 
 ## Contributing
 
